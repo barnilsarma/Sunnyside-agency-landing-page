@@ -1,0 +1,214 @@
+main{
+    position: relative;left:40px;width:400px;
+}
+.part-1{
+   position:relative;left: 0px; 
+   background-image:url('https://github.com/barnilsarma/Sunnyside-agency-landing-page/blob/main/images/mobile/image-header.jpg?raw=true');
+   height: 400px;width:100%;background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+.part-1 #header-row{
+    position:relative;
+}
+.part-1 #header-row #logo{
+    position:relative;left:0.5cm;padding-top: 0.5cm;padding-bottom:0.5cm ;
+}
+.part-1 #header-row #hamburger{
+    position:relative;left:6cm;padding-top:0.5cm; padding-bottom: 0.5cm;
+}
+#we-are-creatives{
+    text-transform: uppercase;position: relative; left:2.5cm;padding-top: 0cm;padding-bottom:0.5cm;top:0cm;
+    width:50%;text-align:center;color:#ffffff;font-size:1cm;font-family:'Fraunces',Sans-Serif;
+    font-weight:700;
+}
+#arrow-down{
+    position:relative;left:4.8cm;top:-1cm;
+}
+.sec-1{
+    display:flex;flex-direction:column;
+}
+.sec-2{
+    display:flex;flex-direction:column;
+}
+.sec-3{
+    display:flex;flex-direction:column;
+}
+
+.part-2{
+    position: relative;top:0cm;width:100%;height:400px;
+}
+#egg{  
+    visibility: visible;
+    width:100%;height: 100%;position:relative;
+}#egg-desktop{
+    visibility: hidden;
+    width:100%;height: 100%;position:absolute;
+}
+#juice-desktop{visibility:hidden;position:absolute;}
+.part-3{
+    position:relative;top:0cm;width:100%; height:400px;text-align: center;
+}
+.headings{
+    font-family:'Fraunces',Sans-Serif;font-weight:900;font-size:40px;position: relative;top:1cm;
+    text-align:center;
+}
+.description{
+    color:hsl(232, 10%, 55%);font-family:'barlow',Sans-Serif;font-weight:600;line-height: 1.6;
+    letter-spacing:1px;position:relative;top:2cm;text-align:center;
+}
+.learn-more{
+    font-family:'Fraunces',sans-serif;font-weight:900;position:relative;top:3cm;left:35%;text-transform: uppercase;
+    width:120px;
+}
+.underline{
+    border-radius:10px;height:10px;width:120px;position:relative;top:-1.2mm;
+}
+.part-3 .learn-more .underline{
+    background-color:hsl(51, 100%, 80%);transition-duration: 0.5s;
+}
+.part-3 .learn-more:hover .underline{
+    background-color:hsl(51, 100%, 40%);transition-duration: 0.5s;
+}
+.main-imgs{
+    width:100%;height: 100%;
+}
+.part-4{
+    position:relative;top:0cm;width:100%; height:400px;text-align: center;
+}
+.part-5{
+    position:relative;top:0cm;width:100%; height:400px;text-align: center;
+}
+.part-5 .learn-more .underline{
+    background-color:hsl(7, 99%, 70%);transition-duration: 0.5s;
+}
+.part-5 .learn-more:hover .underline{
+    background-color:hsl(7, 99%, 40%);transition-duration: 0.5s;
+}
+.part-6{
+    position:relative;top:0cm;width:100%; height:800px;text-align: center;
+    background-image: url('https://github.com/barnilsarma/Sunnyside-agency-landing-page/blob/main/images/mobile/image-graphic-design.jpg?raw=true');
+    background-repeat: no-repeat;background-position: center;background-size:100% 100%;
+}
+.part-6 .headings{
+    top:13cm;color:hsl(167, 40%, 24%);
+}
+.part-6 .description{
+    top:15cm;color:hsl(167, 40%, 24%);
+}
+.part-7{
+    position:relative;top:0cm;width:100%; height:800px;text-align: center;
+    background-image: url('https://github.com/barnilsarma/Sunnyside-agency-landing-page/blob/main/images/mobile/image-photography.jpg?raw=true');
+    background-repeat: no-repeat;background-position: center;background-size:100% 100%;
+}
+.part-7 .headings{
+    top:13cm;color:hsl(198, 62%, 26%);
+}
+.part-7 .description{
+    top:15cm;color:hsl(198, 62%, 26%);
+}
+.part-8{
+    position:relative;top:0cm;width:400px; height:800px;text-align: center;
+}
+.part-8 .main-heading{
+    font-family:'Fraunces',Sans-Serif;font-size:25px;color:hsl(210, 4%, 67%);letter-spacing:2px;
+    font-weight:700;text-transform:uppercase;position:relative;top:2cm;width:100%;
+}
+.part-8 .client{
+    position:relative;top:4cm;
+}
+.part-8 .client .testimonial{
+    color:hsl(213, 9%, 39%);font-family:'barlow',sans-serif;font-weight: 600;font-size:20px;
+    position:relative;padding:0.5cm;
+}
+.part-8 .client .client-name{
+    font-size:20px;font-family:'fraunces',sans-serif;font-weight:900;
+    position:relative;padding-top:0.5cm;padding-bottom:0.2cm;
+}
+.part-8 .client .client-occupation{
+    font-size:15px;font-family:'fraunces',sans-serif;font-weight:900;color:hsl(210, 4%, 67%);
+    position: relative;padding-top:0cm;padding-bottom:2cm;
+}
+.part-8 .client .client-img{
+    height:60px;width:60px;border-radius:60px;position: relative;
+}
+.img-gallery{
+    visibility:visible;
+    position:relative;top:10cm;display: flex;flex-direction: column;
+    width:100%;height:400px;
+}
+.img-gallery .row{
+    display:flex;flex-direction:row;
+}
+.gallery-imgs{
+    width:50%;visibility:visible;position:relative;
+}
+.gallery-imgs-desktop{
+    width:50%;visibility:hidden;position:absolute;
+}
+.part-9{
+    background-color: hsl(168, 49%, 55%);
+    width:100%;height:400px;color:hsl(167, 40%, 24%);
+    position:relative;top:378px;
+}
+.part-9 #logo-footer{
+    height:30px;position:relative;left:30%;top:20%;
+}
+.part-9 .options-scope{
+    position:relative;top:3cm;width:100%;display:flex;flex-direction: row;justify-content: space-around;
+    font-family:'barlow',sans-serif;font-weight:600;
+}
+#logos{
+    width:50%;position:relative;left:25%;top:6cm;justify-content:space-around;display:flex;
+    flex-direction: row;
+}
+#menu-box{
+    visibility:hidden;
+    background-color:#ffffff;width:80%;position:absolute;top:1.5cm;left:2%;
+    display:flex;flex-direction: column;width:367px;height:350px;align-items: center;justify-content: flex-start;
+    font-size: 20px;
+}
+.menu-box-desktop{visibility:hidden;}
+#menu-box .menu-btns{
+    color:hsl(210, 4%, 67%);font-family:'barlow',sans-serif;font-weight:600;padding:0.5cm;padding-top: 1cm;
+}
+#menu-box .contact-btn{
+    font-family:'barlow',sans-serif;font-weight:600;font-weight:600;padding:0.5cm;
+    background-color: hsl(51, 100%, 49%);position:relative;top:0.5cm;border-radius:1cm;padding-left: 1cm;
+    padding-right: 1cm;
+}
+@media only screen and (min-width:1000px){
+    main{position:relative;left:0cm;width:1320px;}
+    .sec-1{flex-direction: row-reverse;width:100%;}
+    .sec-2{flex-direction: row;width:100%;}
+    .sec-3{flex-direction: row;width:1320px;}
+    .main-heading{position:relative;left:500px;}
+    .img-gallery{flex-direction:row;top:-8cm;}
+    .part-9{top:-8cm;}
+    .part-9 .options-scope{justify-content: space-around;width:30%;position:relative;left:35%;}
+    #logos{justify-content: space-around;width:20%;position:relative;left:40%;}
+    .part-9 #logo-footer{left:44%;}
+    .part-2,.part-3,.part-4,.part-5,.part-6,.part-7{width:50%;}
+    .part-1{ background-size:100% 100%; background-image: url('https://github.com/barnilsarma/Sunnyside-agency-landing-page/blob/main/images/desktop/image-header.jpg?raw=true');width:1320px;height:700px;}
+    .part-1 #header-row #hamburger{visibility:hidden;}
+    .menu-box{visibility: hidden;}
+    .menu-box-desktop{visibility:visible;display:flex;flex-direction: row;width:50%;justify-content:space-around;position:relative;top:-1.2cm;
+    left:50%;}
+    .menu-btns{color:#ffffff;font-family:'barlow',sans-serif;font-weight:600;}
+    .contact-btn{color:#000000;font-family:'barlow',sans-serif;font-weight:600;background-color:#ffffff ;
+    border-radius:50px;padding:10px;position:relative;top:-0.1cm;text-transform: uppercase;
+    transition-duration: 0.5s;
+    }.contact-btn:hover{background-color: hsl(210, 100%, 81%);transition-duration: 0.5s;}
+    #we-are-creatives{position:relative;left:28%;}
+    #arrow-down{left:50%;top:2cm;}
+    .options:hover{color:#ffffff;transition:0.5s;}
+    #egg{visibility:hidden;position: absolute;}
+    #egg-desktop{visibility:visible;position:relative;}
+    #juice{visibility:hidden;position: absolute;}
+    #juice-desktop{visibility:visible;position:relative;}
+    .part-6{background-image:url('https://github.com/barnilsarma/Sunnyside-agency-landing-page/blob/main/images/desktop/image-graphic-design.jpg?raw=true');}
+    .part-7{background-image:url('https://github.com/barnilsarma/Sunnyside-agency-landing-page/blob/main/images/desktop/image-photography.jpg?raw=true');}
+   .gallery-imgs{visibility:hidden;position:absolute;}
+   .gallery-imgs-desktop{visibility:visible;position:relative;}
+   .img-gallery{flex-direction: row;}
+   
+}

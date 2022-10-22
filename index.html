@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="https://github.com/barnilsarma/Sunnyside-agency-landing-page/blob/main/images/favicon-32x32.png?raw=true">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap" rel="stylesheet">
+<link href="style-desktop.css" media="mediatype only screen and(min-width:800px)" rel="stylesheet">
+<script src="program.js"></script>  
+<title>Frontend Mentor | Sunnyside agency landing page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="part-1" role="group">
+      <div id="header-row" role="group">
+        <img id="logo" src="https://raw.githubusercontent.com/barnilsarma/Sunnyside-agency-landing-page/e9c2380bf33ae42a65ba95894e7d7eedf92efbc9/images/logo.svg" alt="logo" role="img"><img id="hamburger" src="images/icon-hamburger.svg" onclick="menuClick()" alt="hamburger-menu-button" role="button">
+        <div class="menu-box-desktop" role="list"><a class="menu-btns" role="button">About</a>
+          <a class="menu-btns" role="button">Services</a>
+          <a class="menu-btns" role="button">Projects</a>
+          <a class="contact-btn" role="button">Contact</a></div>
+      </div>
+      <h1 id="we-are-creatives" role="definition">We are creatives</h1>
+      <img id="arrow-down" src="https://raw.githubusercontent.com/barnilsarma/Sunnyside-agency-landing-page/e9c2380bf33ae42a65ba95894e7d7eedf92efbc9/images/icon-arrow-down.svg" alt="arrow" role="img">
+    </div>
+    <div id="menu-box" role="row">
+       
+      <a class="menu-btns" role="link">About</a>
+      <a class="menu-btns" role="link">Services</a>
+      <a class="menu-btns" role="link">Projects</a>
+      <a class="contact-btn" role="link">Contact</a>
+    </div>
+    <div class="sec-1" role="group">
+      <div class="part-2" role="group">
+        <img role="image" src="https://github.com/barnilsarma/Sunnyside-agency-landing-page/blob/main/images/mobile/image-transform.jpg?raw=true" id="egg" class="main-imgs" alt="egg">
+        <img role="image" src="https://github.com/barnilsarma/Sunnyside-agency-landing-page/blob/main/images/desktop/image-transform.jpg?raw=true" id="egg-desktop" class="main-imgs" alt="egg-desktop">
+      </div>
+      <div class="part-3" role="group">
+        <div class="headings">Transform your brand</div>
+        <p class="description" role="note">
+          We are a full-service creative agency specializing in helping brands grow fast. 
+          Engage your clients through compelling visuals that do most of the marketing for you.
+        </p>
+        <div class="learn-more" role="link">
+          Learn more
+          <div class="underline"></div>
+        </div>
+      </div> 
+    </div>
+    <div class="sec-2" role="group">
+      <div class="part-4" role="group">
+        <img role="image" src="https://github.com/barnilsarma/Sunnyside-agency-landing-page/blob/main/images/mobile/image-stand-out.jpg?raw=true" id="juice" class="main-imgs" alt="juice">
+        <img role="image" src="https://github.com/barnilsarma/Sunnyside-agency-landing-page/blob/main/images/desktop/image-stand-out.jpg?raw=true" id="juice-desktop" class="main-imgs" alt="juice-desktop">
+      </div>
+      <div class="part-5" role="group">
+        <div class="headings" role="heading">Stand out to the right audience</div>
+        <div class="description" role="note">
+          Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. 
+        </div>
+        <div class="learn-more" role="link">
+          Learn more
+          <div class="underline"></div>
+        </div> 
+      </div>
+    </div>
+    <div class="sec-2" role="group">
+      <div class="part-6" role="group">
+        <div class="headings" role="heading">Graphic design</div>
+        <div class="description" role="note">
+          Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
+        </div>
+      </div>
+      <div class="part-7" role="group">
+        <div class="headings" role="heading">Photography</div>
+        <div class="description" role="note">
+          Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
+        </div>
+    </div>
+    </div>
+    <div class="part-8" role="group">
+      <div class="main-heading" role="heading">Client testimonials</div>
+      <div class="sec-3" role="group">
+        <div class="client">
+          <img role="img" class="client-img" src="https://github.com/barnilsarma/Sunnyside-agency-landing-page/blob/main/images/image-emily.jpg?raw=true">
+          <div class="testimonial" role="note">
+            We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
+          </div>
+          <div class="client-name" role="text">
+            Emily R.
+          </div>
+          <div class="client-occupation" role="text">
+            Marketing Director
+          </div>
+        </div>
+        <div class="client" role="group">
+          <img class="client-img" src="https://github.com/barnilsarma/Sunnyside-agency-landing-page/blob/main/images/image-thomas.jpg?raw=true" alt="Thomas S." role="img">
+          <div class="testimonial" role="note">
+            Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.
+          </div>
+          <div class="client-name" role="text">
+            Thomas S.
+          </div>
+          <div class="client-occupation" role="text">
+            Chief Operating Officer
+          </div>
+        </div>
+        <div class="client" role="group">
+          <img class="client-img" src="https://github.com/barnilsarma/Sunnyside-agency-landing-page/blob/main/images/image-jennie.jpg?raw=true" alt="Jennie F." role="group">
+          <div class="testimonial" role="note">
+            Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
+          </div>
+          <div class="client-name" role="text">
+            Jennie F.
+          </div>
+          <div class="client-occupation" role="text">
+            Business Owner
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="img-gallery" role="img">
+      <div class="row" role="row">
+        <img role="img" src="https://github.com/barnilsarma/Sunnyside-agency-landing-page/blob/main/images/mobile/image-gallery-milkbottles.jpg?raw=true" class="gallery-imgs" id="img-1" alt="milkbottles">
+        <img role="img" src="https://github.com/barnilsarma/Sunnyside-agency-landing-page/blob/main/images/desktop/image-gallery-milkbottles.jpg?raw=true" class="gallery-imgs-desktop" id="img-1-desktop" alt="milkbottles-desktop">
+        <!-- -->
+        <img role="img" src="https://github.com/barnilsarma/Sunnyside-agency-landing-page/blob/main/images/mobile/image-gallery-orange.jpg?raw=true" class="gallery-imgs" id="img-2" alt="orange">
+        <img role="img" src="https://github.com/barnilsarma/Sunnyside-agency-landing-page/blob/main/images/desktop/image-gallery-orange.jpg?raw=true" class="gallery-imgs-desktop" id="img-2-desktop" alt="orange-desktop">
+      </div>
+      <div class="row">
+        <img role="img" src="https://github.com/barnilsarma/Sunnyside-agency-landing-page/blob/main/images/mobile/image-gallery-cone.jpg?raw=true" class="gallery-imgs" id="img-3" alt="cone">
+        <img role="img" src="https://github.com/barnilsarma/Sunnyside-agency-landing-page/blob/main/images/desktop/image-gallery-cone.jpg?raw=true" class="gallery-imgs-desktop" id="img-3-desktop" alt="cone-desktop">
+        <!-- -->
+        <img role="img" src="https://github.com/barnilsarma/Sunnyside-agency-landing-page/blob/main/images/mobile/image-gallery-sugar-cubes.jpg?raw=true" class="gallery-imgs" id="img-4" alt="sugarcubes">
+        <img role="img" src="https://github.com/barnilsarma/Sunnyside-agency-landing-page/blob/main/images/desktop/image-gallery-sugarcubes.jpg?raw=true" class="gallery-imgs-desktop" id="img-4-desktop" alt="sugarcubes-desktop">
+      </div>
+    </div>
+    <div class="part-9" role="group">
+      <img src="https://raw.githubusercontent.com/barnilsarma/Sunnyside-agency-landing-page/e9c2380bf33ae42a65ba95894e7d7eedf92efbc9/images/logo-footer.svg" id="logo-footer" alt="logo-footer" role="img">
+      <div class="options-scope" role="row">
+        <div class="options" role="link">About</div>
+        <div class="options" role="link">Services</div>
+        <div class="options" role="link">Projects</div>
+      </div>
+      <div id="logos" role="group">
+        <a href="#" role="link" class="logo"  onmouseover="logoTransform('facebook','in')" onmouseout="logoTransform('facebook','out')"><img id="facebook" src="https://raw.githubusercontent.com/barnilsarma/Sunnyside-agency-landing-page/e9c2380bf33ae42a65ba95894e7d7eedf92efbc9/images/icon-facebook.svg" alt="facebook" class="logo"></a>
+        <a href="#" role="link" class="logo" onmouseover="logoTransform('instagram','in')" onmouseout="logoTransform('instagram','out')"><img id="instagram" src="https://raw.githubusercontent.com/barnilsarma/Sunnyside-agency-landing-page/e9c2380bf33ae42a65ba95894e7d7eedf92efbc9/images/icon-instagram.svg" class="logo" alt="instagram"></a>
+        <a href="#" role="link" class="logo" onmouseover="logoTransform('twitter','in')" onmouseout="logoTransform('twitter','out')"><img id="twitter" src="https://raw.githubusercontent.com/barnilsarma/Sunnyside-agency-landing-page/e9c2380bf33ae42a65ba95894e7d7eedf92efbc9/images/icon-twitter.svg" class="logo" alt="twitter"></a>
+        <a href="#" role="link" class="logo" onmouseover="logoTransform('pinterest','in')" onmouseout="logoTransform('pinterest','out')"><img id="pinterest" src="https://raw.githubusercontent.com/barnilsarma/Sunnyside-agency-landing-page/e9c2380bf33ae42a65ba95894e7d7eedf92efbc9/images/icon-pinterest.svg" class="logo" alt="pinterest"></a>
+      </div>
+   </div> 
+  </main>
+  <div class="attribution" role="doc-conclusion">
+    Challenge by <a role="link" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a role="link" href="https://www.frontendmentor.io/profile/barnilsarma" target="_blank">Barnil Sarma</a>.
+  </div>
+</body>
+</html>
